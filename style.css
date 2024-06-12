@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    padding: 15px;
+    max-width:  640px;
+    margin: 0 auto;
+}
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+.gallery-wrapper{
+    overflow-x: auto;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.arrow-right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 40px;
+    line-height: 250px;
+}
+
